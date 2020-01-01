@@ -19,12 +19,12 @@ Or install it yourself as:
     $ gem install tippy
 
 ## Usage
-
+```ruby
 Tippy::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
 Tippy::Builder.new(total: 100, gratuity: 'high').generate # 125.0
 Tippy::Builder.new(total: 100, gratuity: 'low').generate # 115.0
 Tippy::Builder.new(total: 100, gratuity: '20').generate # 120.0
-
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
